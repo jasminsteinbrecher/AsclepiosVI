@@ -57,3 +57,7 @@ This project defines a few example CCSDS telecommands. They are sent to UDP port
 Running through Maven is useful during development, but it is not recommended for production environments. Instead bundle up your Yamcs application in a tar.gz file:
 
     ./mvnw package
+
+# AsclepiosVI
+This repository holds the current instance of the YAMCS Software for Asclepios VI.
+
