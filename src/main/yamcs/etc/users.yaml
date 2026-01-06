@@ -1,0 +1,30 @@
+admin:
+ password: admin
+
+flight:
+ displayName: "FLIGHT"
+ password: FLIGHT
+
+capcom:
+ displayName: "CAPCOM"
+ password: CAPCOM
+
+pro:
+ displayName: "PRO"
+ password: PRO
+
+sc:
+ displayName: "SC"
+ password: SC
+
+bme:
+ displayName: "BME"
+ password: BME
+
+eva:
+ displayName: "EVA"
+ password: EVA
+
+contact:
+ displayName: "CONTACT"
+ password: CONTACT
