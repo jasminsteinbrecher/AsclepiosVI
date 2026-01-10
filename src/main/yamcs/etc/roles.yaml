@@ -1,0 +1,70 @@
+Admin:
+  Command: [".*"]
+  CommandHistory: [".*"]
+  ManageBucket: [] # specify which buckets 
+  ReadAlgorithm: [".*"]
+  ReadBucket: [".*"]
+  ReadPacket: [".*"]
+  ReadParameter: [".*"]
+  Stream: [".*"]
+  WriteParameter: [".*"]
+  System:
+    - ControlProcessor
+    - CreateInstances
+    - ModifyCommandHistory
+    - ControlCommandClearances
+    - ControlCommandQueue
+    - CommandOptions
+    - GetMissionDatabase
+    - ChangeMissionDatabase
+    - ReadAlarms
+    - ControlAlarms
+    - ReadActivities
+    - ControlActivities
+    - ReadLinks
+    - ControlLinks
+    - ControlServices
+    - ManageParameterLists
+    - ManageAnyBucket
+    - ReadEvents
+    - WriteEvents
+    - WriteTables
+    - ReadTables
+    - ReadTimeline
+    - ControlTimeline
+    - ControlAccess # allows to control access (users, groups, roles, ...)
+    - ReadSystemInfo # allows to view system information (OS, JVM, threads, replication, ...)
+    - ControlFileTransfers # allows to create file transfers
+    - ReadFileTransfers # allows to read access to file transfer information
+
+## MCC Roles & Astronaut
+
+Flight:
+  # ReadParameter: [".*"]
+  # ReadPacket: [".*"]
+  # Command: [".*"]
+  # CommandHistory: [".*"]
+  # ManageBucket: ["EVA", ]
+  # System:
+  #   - ReadAlarms
+
+Capcom:
+
+
+Pro:
+ 
+
+Sc:
+ 
+
+Bme:
+  ManageBucket: ["AA1", "AA2", "AA3", "AA4", "AA5", "AA6", "AA7", "AA8", "AA9"]
+
+Eva:
+ 
+
+Contact:
+
+
+AA:
+  

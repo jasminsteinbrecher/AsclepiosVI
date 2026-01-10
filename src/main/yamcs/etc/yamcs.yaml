@@ -18,3 +18,23 @@ instances:
 # Secret key unique to a particular Yamcs installation.
 # This is used to provide cryptographic signing.
 secretKey: changeme
+
+yamcs-web:
+  tag: Asclepios VI
+  logo: etc/logo.png
+  siteLinks:
+    - label: ASVI-HMCC-002
+      url: https://docs.google.com/document/d/1UQgBqdJDCYo5GR4mscjhOZej1AXa9CJa/edit
+      external: true
+
+buckets:
+  - name: Experiments
+  - name: AA1
+  - name: AA2
+  - name: AA3
+  - name: AA4
+  - name: AA5
+  - name: AA6
+  - name: AA7
+  - name: AA8
+  - name: AA9
