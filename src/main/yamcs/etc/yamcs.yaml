@@ -29,6 +29,7 @@ yamcs-web:
 
 buckets:
   - name: Experiments
+  - name: EVA
   - name: AA1
   - name: AA2
   - name: AA3
