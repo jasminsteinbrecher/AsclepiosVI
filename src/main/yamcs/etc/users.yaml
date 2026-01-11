@@ -1,6 +1,6 @@
-admin:
+Admin:
  displayName: "ADMINISTRATOR"
- password: admin
+ password: Admin
  roles: [Admin]
 
 Flight:
